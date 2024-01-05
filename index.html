@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Biblioteca de Animações do Site-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Meta tags primárias (ajuda na ferramenta de pesquisa do Google)-->
+    <title>PX Soluções</title>
+        <meta name="title" content="PX Soluções Financeiras">
+        <meta name ="description" content = "Site para fazer empréstimos, tirar aposentadoria e etc">
+
+
+    <!-- Favicon (vazio?) -->
+
+    <!-- Google Font NEW LINKS -->
+    <!--Google Fonts (Sora)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+    <!-- Google Font OLD Links 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    ------------------  -->
+
+    <!-- Script da Biblioteca-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+
+
+    <!-- Arquivo HTML conectado com o CSS -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./images/hero-bg.jpg">
+    <link rel="preload" as="image" href="./images/hero-slide-1.jpg">
+    <link rel="preload" as="image" href="./images/hero-slide-2.jpg">
+    <link rel="preload" as="image" href="./images/hero-slide-3.jpg">
+    <link rel="preload" as="image" href="./images/slider-4.PNG">
+  
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo" data-aos="fade-up" data-aos-delay="150">
+                <img src="./images/px-logo3.PNG" width="110" height="24" alt="PX Home" class="logo-light">
+                
+                <img src="./images/px-logo3.PNG" width="110" height="24" alt="PX Home" class="logo-dark">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./images/px-logo3.PNG" width="94" height="30" alt="PX Home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <a id="linkHome" href="#" class="navbar-link">Início</a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <a id="linkServicos" href="#" class="navbar-link">Serviços</a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="300">
+                        <a id="linkAbout" href="#" class="navbar-link">Sobre Nós</a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+                        <a id="linkResultados" href="#" class="navbar-link">Resultados</a>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="500">
+                        <a id="linkLocalizacao" href="#" class="navbar-link">Localização</a>
+                    </li>
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:pxsolucoes2024@gmail.com" class="contact-link">pxsolucoes2024@gmail.com</a>
+                    <a href="tel:5585996123245" class="contact-link">+55 85 9 9612-3245</a>
+                    
+                </div>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.instagram.com/pxsolucoesfinanceiras/" target="_blank" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Quero%20fazer%20um%20pedido!" target="_blank" class="social-link">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+            
+
+
+
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!--- 
+                - #HERO
+            -->
+            <section class="section hero has-bg-image" id="home-link" aria-label="home" style="background-image: url('./images/hero-bg.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title" data-aos="fade-up" data-aos-delay="250">A Solução Financeira que você precisa está aqui!</h1>
+
+                        <p class="hero-text" data-aos="fade-up" data-aos-delay="350">
+                            Nós oferecemos empréstimos, antecipação de FGTS, aposentadoria e mais! 
+                            <br>
+                            <br>
+                            Horário de Funcionamento: 8h às 17h
+                        </p>
+
+                        <div class="btn-wrapper" data-aos="fade-up" data-aos-delay="350">
+                            <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Quero%20fazer%20um%20pedido!" target=_blank class="btn btn-primary">Solicitar Serviço</a>
+
+                            <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Quero%20tirar%20uma%20dúvida!" target="_blank" class="btn btn-outline">Tire suas dúvidas</a>
+
+                        </div>
+                    </div>
+
+                    <div class="hero-slider" data-slider data-aos="fade-up" data-aos-delay="250">
+                        
+                        <div class="slider-inner">
+                            <ul class="slider-container" data-slider-container>
+                                <li class="slider-item">
+                                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                                        <img src="./images/slide1.PNG" width="575" height="550" alt="" class="img-cover">
+                                    </figure>
+                                </li>
+
+                                <li class="slider-item">
+                                    
+                                    <div class="hero-card">
+                                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                                            <img src="./images/slide-2.PNG" width="575" height="550" alt="" class="img-cover">
+                                        </figure>
+
+                                        <button class="play-btn" aria-label="play PX intro">
+                                            <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+
+                                </li>
+
+                                <li class="slider-item">
+                                    <figure class="img-holder" style="--width: 575 ; --height: 550 ;">
+                                        <img src="./images/slider-3.PNG" width="575" height="550" alt="" class="img-cover">
+                                    </figure>
+                                </li>
+
+                                
+
+                                <li class="slider-item">
+                                    <figure class="img-holder" style="--width: 575 ; --height: 550 ;">
+                                        <img src="./images/slider-4.PNG" width="575" height="550" alt="" class="img-cover">
+                                    </figure>
+                                </li>
+                             
+                            </ul>
+                        </div>
+
+                            <!-- BOTÕES DOS SLIDERS -->
+                            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                                <ion-icon name="arrow-back"></ion-icon>
+                            </button>
+
+                            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+                                <ion-icon name="arrow-forward"></ion-icon>
+                            </button>
+                    
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!--
+                -#SERVICE
+            -->
+
+            <section class="section service" aria-labelledby="service-label" id="servicos-link">
+                <div class="container">
+                    <p class="section-subtitle" id="service-label">O que nós fazemos?</p>
+
+                    <h2 class="h2 section-title">
+                        Serviços que oferecemos:
+                    </h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                                <div class="card-icon">
+                                    <img src="./images/emprestimo.jpg">
+                                </div>
+
+                                <h3 class="h4 card-title">Empréstimo na Conta de Energia</h3>
+
+                                <p class="card-text">
+                                    Crédito até R$1.200,00<br>
+                                    - Simples e Seguro <br>
+                                    - Para Negativados <br>
+                                    - Sem Comprovação de Renda
+                                </p>
+
+                                <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Queria%20saber%20mais%20sobre%20Empréstimo!" class="btn-text">
+                                    <span class="span">Saiba Mais</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- SEGUNDO CARD -->
+                        <li>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                                <div class="card-icon">
+                                    <img src="./images/inss-aposentadoria.png">
+                                </div>
+
+                                <h3 class="h4 card-title">Entrada na Aposentadoria</h3>
+
+                                <p class="card-text">
+                                    Damos entrada na aposentadoria e acompanhamos todo o processo junto com você, cliente.
+                                </p>
+
+                                <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Queria%20saber%20mais%20sobre%20dá%20entrada%20na%20Aposentadoria!" class="btn-text">
+                                    <span class="span">Saiba Mais</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- TERCEIRO CARD-->
+                        <li>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+                                <div class="card-icon">
+                                    <img src="./images/fgts.jpg">
+                                </div>
+
+                                <h3 class="h4 card-title">Antecipação do FGTS</h3>
+
+                                <p class="card-text">
+                                    Antecipamos o saque do seu FGTS e também simulamos com você aqui na loja! <br>
+                                    - Faça a Simulação do saque do seu FGTS com a gente!
+                                </p>
+
+                                <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Queria%20saber%20mais%20sobre%20a%20Antecipação%20do%20FGTS!" class="btn-text">
+                                    <span class="span">Saiba Mais</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- QUARTO CARD -->
+                        <li>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                                <div class="card-icon">
+                                    <img src="./images/consignado.jpg">
+                                </div>
+
+                                <h3 class="h4 card-title">Empréstimo Consignado</h3>
+
+                                <p class="card-text">
+                                    Fazemos Empréstimo Consignado para beneficiários do BPC/LOAS <br>
+                                    - Faça sua simulação com a gente!
+                                </p>
+
+                                <a href="https://api.whatsapp.com/send?phone=5585996123245&text=Queria%20saber%20mais%20sobre%20o%20Empréstimo%20Consignado!" class="btn-text">
+                                    <span class="span">Saiba Mais</span>
+
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <!-- ABOUT-->
+            <section class="about" id="about-link" aria-labelledby="about-label">
+                <div class="container">
+
+                    <figure class="about-banner" data-aos="fade-up" data-aos-delay="150">
+                        <img src="./images/loja.PNG" width="600" height="480" 
+                        loading="lazy" alt="about banner" class="w-100">
+                    </figure>
+
+                    <div class="about-content" data-aos="fade-up" data-aos-delay="250">
+                        <p class="section-subtitle" id="about-label">Por que nos escolher?</p>
+
+                        <h2 class="h2 section-title">
+                            Atuamos no mercado financeiro desde 2020, construindo uma sólida reputação e conquistando a confiança de milhares de clientes!
+                        </h2>
+
+                        <ul>
+                            <!-- ABOUT 1-->
+
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Atendimento Rápido e Exclusivo</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        Conte com uma equipe de funcionários qualificados, prontos para oferecer todo o suporte necessário para atender às suas necessidades.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- ABOUT 2-->
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Empréstimos Sem Burocracia</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        Facilitamos o acesso a empréstimos, inclusive para negativados, de forma rápida e segura.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- ABOUT 3-->
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Suporte Online e Presencial</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        Esteja onde estiver, estamos aqui para ajudar! Tire suas dúvidas e receba assistência tanto presencialmente quanto online, via WhatsApp (85 9 9612-3245)
+                                    </p>
+                                </div>
+                            </li>
+
+                            <!-- ABOUT 4-->
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                                            <spna class="span h5">Transparência e Agilidade</spna>
+                                        </button>
+                                    </h3>
+
+                                    <p class="accordion-content">
+                                        Nossos processos são transparentes e garantimos agilidade em todas as etapas. Sabemos que seu tempo é valioso.
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!------- PROJECT ------->
+            <section class="section project" id="resultados-link" aria-labelledby="project-label">
+                <div class="container">
+                    <p class="section-subtitle" id="project-label">RESULTADOS</p>
+
+                    <h2 class="h2 section-title">
+                        Veja alguns de nossos clientes que tiveram seus benefícios aprovados com a gente
+                    </h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card" data-aos="fade-up" data-aos-delay="150"> 
+
+                                <figure class="card-banner img-holder" style="--width: 360; --height: 350;">
+                                    <img src="./images/resultado0.PNG" width="560" height="350"
+                                    loading="lazy" alt="Benefício Aprovado!" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Benefício Aprovado!</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Cliente teve sua aposentadoria aprovada!
+                                    </p>
+
+                                    <!--  
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                                        </li>
+
+                                        <li class=card-meta-item>
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Coding</span>
+                                        </li>
+                                    </ul>
+                                    -->
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- IMAGEM 2 -->
+                        <li>
+                            <div class="project-card" data-aos="fade-up" data-aos-delay="250"> 
+
+                                <figure class="card-banner img-holder" style="--width: 360 ; --height: 350 ;">
+                                    <img src="./images/resultado1.PNG" width="560" height="350"
+                                    loading="lazy" alt="Benefício Aprovado!" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Benefício Aprovado!</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Cliente teve sua aposentadoria aprovada!
+                                    </p>
+
+
+                                    <!-- 
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                                        </li>
+
+                                        <li class=card-meta-item>
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Workspace</span>
+                                        </li>
+                                    </ul>
+                                    -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- IMAGEM 3 -->
+                        <li>
+                            <div class="project-card" data-aos="fade-up" data-aos-delay="350">
+                                <figure class="card-banner img-holder" style="--width: 360 ; --height: 350 ;">
+                                    <img src="./images/resultado2.PNG" width="560" height="350"
+                                    loading="lazy" alt="Benefício Aprovado!" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Benefício Aprovado!</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Cliente teve sua aposentadoria aprovada!
+                                    </p>
+
+
+                                    <!-- 
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                                        </li>
+
+                                        <li class=card-meta-item>
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="meta-text">Meeting</span>
+                                        </li>
+                                    </ul>
+                                    -->
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- MAPA DE LOZALICAÇÃO-->
+            <section class="englobar" id="localizacao-link"> 
+                <div class="services6" id="venha-conhecer">
+                    <h2>Venha Conhecer</h2> 
+                    <h3>Horário de Funcionamento: 8h às 17h</h3>
+                </div>
+        
+                <iframe 
+                width="100%" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.8237411461278!2d-38.55911128391963!3d-3.7163633439041597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749f2add4e741%3A0xa991df8f5d7f73fc!2sPonto%20da%20Xerox%20-%20Artes%20e%20Presentes!5e0!3m2!1spt-BR!2sbr!4v1691002991026!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </section>
+
+
+            <!------- NEW FOOTER ------->
+
+            <footer class="footer">
+                <div>
+                    <img src="./images/px-logo3.PNG"
+                    alt = logo-px/>
+                </div>
+        
+                <p>Copyright 2024 | PX Soluções - Todos os direitos reservados.</p>
+           </footer>
+
+
+           <!--Button WhatsApp-->
+            <a 
+            href="https://api.whatsapp.com/send?phone=5585996123245&text=Quero%20fazer%20um%20pedido!"
+            class="btn-whatsapp"
+            target="_blank"
+            data-aos="zoom-in-up" data-aos-delay="400";
+            >
+                <img src="./images/whatssapp.svg" alt="botao whats app"/>
+                <span class="tooltip-text">Saiba mais</span>
+            </a>
+
+
+
+
+
+            <!-- OLD FOOTER 
+            <footer class="footer">
+                <div class="container grid-list">
+                    <div class="footer-brand">
+                        <a href="#" class="logo">
+                            <img src="./images/px-logo3.PNG" width="130" height="24" alt="logo da loja">
+                        </a>
+
+                        <p class="footer-text">
+                            &copy; Copyright 2024 | PX Soluções - Todos os direitos reservados.
+                        </p>
+
+                        <ul class="social-list">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="h4 footer-list-title">Entre em Contato</p>
+                        </li>
+
+                        <li>
+                            <address class="footer-text">
+                                R. Lucas Pinto, 549 - Cristo Redentor, Fortaleza-CE
+                            </address>
+                        </li>
+
+                        <li>
+                            <a href="tel:85996123245" class="footer-link">(85) 9 9612-3245</a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:pxsolucoes@gmail.com" class="footer-link">pxsolucoes@gmail.com</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </footer>
+
+            -->
+
+        
+        </article>
+    </main>
+    
+
+    <!-- Conexão com o JavaScript -->
+    <script src="./index.js"></script>
+
+    <!-- Ionicon-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

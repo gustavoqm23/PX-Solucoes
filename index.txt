@@ -1,0 +1,99 @@
+PX Soluções Financeiras
+URL do Site será (pxsolucoes)
+
+Site Institucional da empresa PX Soluções Financeiras desenvolvido por Gustavo Monte
+
+
+#-------HEADER-------#
+
+
+Início (Introdução com landing page/marketing)
+Serviços (O que nós oferecemos)
+Sobre Nós (Quem somos)
+Resultados (Mostrando os clientes satisfeitos)
+Contatos (Contatos + Localização)
+
+info@email.com (email da loja)
+55 85 9 (numero da loja)
+
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-whatsapp"></ion-icon>
+
+
+aria-label = open menu
+
+
+
+Navbar do Menu (CSS linha 220);
+
+Propriedades dos botões de "Solicitar Serviço" e "Tire suas dúvidas" (CSS linha 213)
+
+
+
+------------------------------------------------------------------------------------------------
+"Sobre Nós" SCRIPT 1
+Por que nos escolher?
+
+Desde 2020 trabalhamos com empréstimos, antecipação de FGTS
+e aposentadoria e temos milhares de clientes satisfeitos!
+
+- Atendimento Rápido e Exclusivo
+	-> Temos funcionários qualificados que te darão todo o suporte para fazer o que você deseja
+- Empréstimos Sem Burocracia
+	-> Nós fazemos empréstimos para negativados de forma rápida e segura.
+- Suporte Online e Presencial para os Clientes
+	-> Tiramos suas dúvidas e lhe ajudamos tanto presencialmente quanto online via WhatsApp (85 9...)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+"Sobre Nós" SCRIPT 2
+Por que nos escolher?
+Atuamos no mercado financeiro desde 2020, construindo uma sólida reputação e conquistando a confiança de milhares de clientes! (Temos + de 20K seguidores no Instagram)
+
+- Atendimento Rápido e Exclusivo
+	-> Conte com uma equipe de funcionários qualificados, prontos para oferecer todo o suporte necessário para atender às suas necessidades.
+- Empréstimos Sem Burocracia
+	-> Facilitamos o acesso a empréstimos, inclusive para negativados, de forma rápida e segura. 
+- Suporte Online e Presencial para os Clientes
+	-> Esteja onde estiver, estamos aqui para ajudar! Tire suas dúvidas e receba assistência tanto presencialmente quanto online, via WhatsApp (85 9.
+- Transparência e Agilidade
+	-> Nossos processos são transparentes e garantimos agilidade em todas as etapas. Sabemos que seu tempo é valioso.
+
+
+    -------------------------------------------
+    -------------------------------------------
+    RESULTADOS:
+
+    Veja alguns de nossos clientes que tiveram seus benefícios
+    aprovados com a gente.
+
+    img1
+    Benefício Aprovado!
+    Cliente teve sua aposentadoria aprovada!
+
+    img2
+    Benefício Aprovado!
+    Cliente teve sua aposentadoria aprovada!
+
+    img3
+    Benefício Aprovado!
+    Cliente teve sua aposentadoria aprovada!
+    --------------------------------------------
+    --------------------------------------------
+    CONTATOS
+    endereço
+    contato de telefone
+
+    mapa do Google Maps no lado
+    ---------------------------------------------
+    ---------------------------------------------
+
+    PX Soluções Financeiras ou Logo da Loja 
+    Copyright 2024 | PX Soluções - Todos os direitos reservados.
+    Instagram e WhatsApp  (logo de cada rede social);
+
+    Entre em Contato
+    R. Lucas Pinto, 549 - Cristo Redentor, Fortaleza-CE
+    pxsolucoes@gmail.com 
+    (85) 9 9612-3245
+
+
