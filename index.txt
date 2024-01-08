@@ -77,6 +77,15 @@ Atuamos no mercado financeiro desde 2020, construindo uma sólida reputação e 
     img3
     Benefício Aprovado!
     Cliente teve sua aposentadoria aprovada!
+
+    NEW SLIDERS:
+    - Deixar os cards ocultados nos comentários (X)
+    - Criar um HTML com a estrutura dos sliders ()
+    - No CSS, centralizar a Div dos sliders ()
+    - No JavaScript, dá funcionalidade no rolamento das imagens ()
+
+
+
     --------------------------------------------
     --------------------------------------------
     CONTATOS
